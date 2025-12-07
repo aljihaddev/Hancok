@@ -1,0 +1,772 @@
+/* Extra small devices (portrait phones, less than 576px) Start */
+@media (max-width: 575.98px) {
+
+/* Header Part Start */
+
+.navbar-toggler i{
+    color: #fff;
+}
+
+.navbar-nav{
+    background: #FF4655;
+    text-align: center;
+    border-radius: 10px;
+}
+.headerSocial{
+    background: #FF4655;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Header Part End */
+
+/* Bannar Part Start */
+#bannarPart{
+    padding: 150px 0 20px 0;
+}
+.bannarSocial {
+    padding-top: 35px;
+}
+.bannar h3 {
+    font-size: 20px;
+}
+.bannar h1 {
+    font-size: 48px;
+    line-height: 50px;
+}
+.bannar h1::after {
+    width: 75px;
+    top: 92px;
+    right: 70px;
+}
+.bannar p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    width: 390px;
+    line-height: 18px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+/* Bannar Part End */
+
+/* About Part Start */
+
+.about h3 {
+    font-size: 30px;
+    width: 355px;
+    line-height: 40px;
+}
+.about h3::after {
+    width: 90px;
+    bottom: 6px;
+    left: 155px;
+}
+.aboutPoint h3 {
+    font-size: 23px;
+    padding: 0 !important;
+}
+.aboutPoint p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 22px;
+    font-family: "Oswald", sans-serif;
+    padding: 20px 0;
+}
+#aboutPart {
+    padding: 35px 0 35px;
+    background: #121212;
+}
+
+/* About Part End */
+
+/* Counter Part Start */
+.counterItem {
+    margin-bottom: 10px;
+}
+#counterPart {
+    background: #121212;
+    padding-bottom: 15px;
+}
+
+/* Counter Part End */
+
+/* Popular Part Start */
+.popularHeading h3::after {
+    width: 90px;
+    right: 90px;
+    bottom: 5px;
+}
+.popularImage2 {
+    padding-top: 50px;
+}
+.popularButton1 {
+    font-size: 40px;
+    position: relative;
+    top: 125px;
+}
+.popularButton2 {
+    font-size: 40px;
+    position: relative;
+    top: 65px;
+    right: 60px;
+}
+.popularHeading h3 {
+    font-size: 28px;
+    line-height: 30px;
+}
+/* Popular Part End */
+
+/* Live Part Start */
+
+.liveHeading h3 {
+    font-size: 32px;
+    line-height: 45px;
+}
+.liveHeading h3::after {
+    width: 90px;
+    bottom: 8px;
+    left: 120px;
+}
+#livePart {
+    padding: 30px 0;
+}
+.liveImage {
+    padding-top: 30px;
+}
+/* Live Part End */
+
+/* Sale Part Start */
+
+#salePart {
+    padding: 30px 0;
+}
+.saleItem {
+    padding: 15px 0 15px;
+}
+.saleItemImage {
+    margin: 10px 5px;
+}
+
+/* Calatog Sub Part of Sale Part Start */
+
+.catalogHeading h3 {
+    padding-top: 30px;
+}
+.catalogBoxLeft {
+    padding-left: 0 !important;
+}
+.catalogBoxRight img {
+    padding-right: 0px !important;
+}
+.catalogBoxLeft h3 {
+    font-size: 20px;
+    line-height: 25px;
+}
+.catalogBoxLeft p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+.catalogBoxLeft a {
+    font-size: 14px;
+    line-height: 15px;
+    padding: 10px 20px;
+}
+.catalogBox {
+    padding: 15px 10px;
+}
+
+/* Calatog Sub Part of Sale Part End */
+
+/* Sale Part End */
+
+/* Store Part Start */
+
+#storePart {
+    padding: 30px 0;
+}
+
+.storeHeading h3 {
+    font-size: 28px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.storeHeading h3::after {
+    width: 90px;
+    top: 71px;
+    right: 145px;
+}
+.storeItem {
+    margin: 10px 5px;
+}
+
+/* Store Part End */
+
+/* Team Part Start */
+
+#teamPart {
+    padding: 30px 0;
+}
+.teamHeading h3 {
+    font-size: 26px;
+    line-height: 30px;
+}
+.teamImageText {
+    padding: 10px;
+}
+.teamHeadingGap {
+    padding-top: 15px;
+}
+.teamImageText h3 {
+    font-size: 25px;
+    line-height: 24px;
+}
+.teamImageText p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 110px 20px 0;
+}
+.teamHeading h3::after {
+    width: 80px;
+    bottom: 13px;
+    right: 70px;
+}
+.teamImageText {
+    padding: 10px 0 20px;
+}
+.teamImageBtn a {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.teamImageSocialOne{
+    bottom: 15px;
+    right: 20px;
+    font-size: 25px;
+    padding: 1px 4px;
+}
+.teamImageSocialTwo{
+    bottom: 15px;
+    right: 70px;
+    font-size: 25px;
+    padding: 1px 4px;
+}
+.teamImageSocialThree{
+    bottom: 15px;
+    right: 120px;
+    font-size: 25px;
+    padding: 1px 4px;
+}
+.teamImage img {
+    margin: 10px 0;
+}
+.void {
+    padding: 0 !important;
+}
+.teamImageText {
+    margin-bottom: 10px;
+}
+
+/* Team Part End */
+
+/* FAQ Part Start */
+
+#faqPart {
+    padding: 20px 0 50px 0;
+}
+.faqHeading h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.faqHeading h3::after {
+    width: 65px;
+    right: 88px;
+    bottom: 6px;
+}
+.faqBody {
+    padding: 40px 0 75px 0;
+}
+.faqPoint h4 {
+    font-size: 16px;
+    padding: 5px 10px 7px;
+}
+.faqText h3 {
+    font-size: 18px;
+    line-height: 18px;
+    padding-left: 10px;
+}
+.faqText p {
+    font-size: 14px;
+    padding: 5px 0 0 10px;
+    line-height: 17px;
+    text-align: justify;
+}
+
+/* FAQ Part End */
+
+/* Footer Part Start */
+#footerPart {
+    padding: 50px 0;
+}
+.footerTopText h3 {
+    font-size: 24px;
+    line-height: 24px;
+    padding-right: 0 !important;
+}
+.footerTop {
+    padding: 10px;
+    top: -140px;
+}
+.footerTopInput input {
+    margin-top: 15px;
+}
+.footerTopInput input {
+    width: 209%;
+}
+.footerTopInput button {
+    top: 73px;
+    right: 8px;
+    width: 25%;
+}
+.footerRight p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0 20px 0;
+    text-align: justify;
+    width: 90%;
+}
+.footerBody {
+    padding-top: 10px;
+}
+.socialIcon {
+    padding: 3px 7px;
+    margin-right: 8px;
+}
+.socialIcon a {
+    font-size: 14px;
+}
+.footerLinks h3 {
+    font-size: 18px;
+}
+.footerLinks a {
+    font-size: 14px;
+    padding: 10px 20px 0 0;
+}
+.footerTeams h3 {
+    font-size: 18px;
+}
+.footerTeams a {
+    font-size: 14px;
+    padding: 10px 20px 0 0;
+}
+
+/* Footer Part End */
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) End */
+
+
+
+/* Small devices (landscape phones, 576px and up) Start */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* Header Part Start */
+
+.navbar-toggler i{
+    color: #fff;
+}
+
+.navbar-nav{
+    background: #FF4655;
+    text-align: center;
+    border-radius: 10px;
+}
+.headerSocial{
+    background: #FF4655;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Header Part End */
+
+/* Bannar Part Start */
+#bannarPart{
+    padding: 150px 0 20px 0;
+}
+.bannarSocial {
+    padding-top: 35px;
+}
+.bannar h3 {
+    font-size: 20px;
+}
+.bannar h1 {
+    font-size: 48px;
+    line-height: 50px;
+}
+.bannar h1::after {
+    width: 75px;
+    top: 92px;
+    right: 70px;
+}
+.bannar p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    width: 390px;
+    line-height: 18px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+/* Bannar Part End */
+
+/* About Part Start */
+
+.about h3 {
+    font-size: 30px;
+    width: 355px;
+    line-height: 40px;
+}
+.about h3::after {
+    width: 90px;
+    bottom: 6px;
+    left: 155px;
+}
+.aboutPoint h3 {
+    font-size: 23px;
+    padding: 0 !important;
+}
+.aboutPoint p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 22px;
+    font-family: "Oswald", sans-serif;
+    padding: 20px 0;
+}
+#aboutPart {
+    padding: 35px 0 35px;
+    background: #121212;
+}
+
+/* About Part End */
+
+/* Counter Part Start */
+.counterItem {
+    margin-bottom: 10px;
+}
+#counterPart {
+    background: #121212;
+    padding-bottom: 15px;
+}
+
+/* Counter Part End */
+
+/* Popular Part Start */
+.popularHeading h3::after {
+    width: 90px;
+    right: 90px;
+    bottom: 5px;
+}
+.popularImage2 {
+    padding-top: 50px;
+}
+.popularButton1 {
+    font-size: 40px;
+    position: relative;
+    top: 125px;
+}
+.popularButton2 {
+    font-size: 40px;
+    position: relative;
+    top: 65px;
+    right: 60px;
+}
+.popularHeading h3 {
+    font-size: 28px;
+    line-height: 30px;
+}
+/* Popular Part End */
+
+/* Live Part Start */
+
+.liveHeading h3 {
+    font-size: 32px;
+    line-height: 45px;
+}
+.liveHeading h3::after {
+    width: 90px;
+    bottom: 8px;
+    left: 120px;
+}
+#livePart {
+    padding: 30px 0;
+}
+.liveImage {
+    padding-top: 30px;
+}
+/* Live Part End */
+
+/* Sale Part Start */
+
+#salePart {
+    padding: 30px 0;
+}
+.saleItem {
+    padding: 15px 0 15px;
+}
+.saleItemImage {
+    margin: 10px 5px;
+}
+
+/* Calatog Sub Part of Sale Part Start */
+
+.catalogHeading h3 {
+    padding-top: 30px;
+}
+.catalogBoxLeft {
+    padding-left: 0 !important;
+}
+.catalogBoxRight img {
+    padding-right: 0px !important;
+}
+.catalogBoxLeft h3 {
+    font-size: 20px;
+    line-height: 25px;
+}
+.catalogBoxLeft p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+.catalogBoxLeft a {
+    font-size: 14px;
+    line-height: 15px;
+    padding: 10px 20px;
+}
+.catalogBox {
+    padding: 15px 10px;
+}
+
+/* Calatog Sub Part of Sale Part End */
+
+/* Sale Part End */
+
+/* Store Part Start */
+
+#storePart {
+    padding: 30px 0;
+}
+
+.storeHeading h3 {
+    font-size: 28px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.storeHeading h3::after {
+    width: 90px;
+    top: 71px;
+    right: 145px;
+}
+.storeItem {
+    margin: 10px 5px;
+}
+
+/* Store Part End */
+
+/* Team Part Start */
+
+#teamPart {
+    padding: 30px 0;
+}
+.teamHeading h3 {
+    font-size: 26px;
+    line-height: 30px;
+}
+.teamImageText {
+    padding: 10px;
+}
+.teamHeadingGap {
+    padding-top: 15px;
+}
+.teamImageText h3 {
+    font-size: 25px;
+    line-height: 24px;
+}
+.teamImageText p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 110px 20px 0;
+}
+.teamHeading h3::after {
+    width: 80px;
+    bottom: 13px;
+    right: 70px;
+}
+.teamImageText {
+    padding: 10px 0 20px;
+}
+.teamImageBtn a {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.teamImageSocialOne{
+    bottom: 15px;
+    right: 20px;
+    font-size: 25px;
+    padding: 1px 4px;
+}
+.teamImageSocialTwo{
+    bottom: 15px;
+    right: 70px;
+    font-size: 25px;
+    padding: 1px 4px;
+}
+.teamImageSocialThree{
+    bottom: 15px;
+    right: 120px;
+    font-size: 25px;
+    padding: 1px 4px;
+}
+.teamImage img {
+    margin: 10px 0;
+}
+.void {
+    padding: 0 !important;
+}
+.teamImageText {
+    margin-bottom: 10px;
+}
+
+/* Team Part End */
+
+/* FAQ Part Start */
+
+#faqPart {
+    padding: 20px 0 50px 0;
+}
+.faqHeading h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.faqHeading h3::after {
+    width: 65px;
+    right: 88px;
+    bottom: 6px;
+}
+.faqBody {
+    padding: 40px 0 75px 0;
+}
+.faqPoint h4 {
+    font-size: 16px;
+    padding: 5px 10px 7px;
+}
+.faqText h3 {
+    font-size: 18px;
+    line-height: 18px;
+    padding-left: 10px;
+}
+.faqText p {
+    font-size: 14px;
+    padding: 5px 0 0 10px;
+    line-height: 17px;
+    text-align: justify;
+}
+
+/* FAQ Part End */
+
+/* Footer Part Start */
+#footerPart {
+    padding: 50px 0;
+}
+.footerTopText h3 {
+    font-size: 24px;
+    line-height: 24px;
+    padding-right: 0 !important;
+}
+.footerTop {
+    padding: 10px;
+    top: -140px;
+}
+.footerTopInput input {
+    margin-top: 15px;
+}
+.footerTopInput input {
+    width: 209%;
+}
+.footerTopInput button {
+    top: 73px;
+    right: 8px;
+    width: 25%;
+}
+.footerRight p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0 20px 0;
+    text-align: justify;
+    width: 90%;
+}
+.footerBody {
+    padding-top: 10px;
+}
+.socialIcon {
+    padding: 3px 7px;
+    margin-right: 8px;
+}
+.socialIcon a {
+    font-size: 14px;
+}
+.footerLinks h3 {
+    font-size: 18px;
+}
+.footerLinks a {
+    font-size: 14px;
+    padding: 10px 20px 0 0;
+}
+.footerTeams h3 {
+    font-size: 18px;
+}
+.footerTeams a {
+    font-size: 14px;
+    padding: 10px 20px 0 0;
+}
+
+/* Footer Part End */
+}
+/* Small devices (landscape phones, 576px and up) End */
+
+
+
+/* Medium devices (tablets, 768px and up) Start */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+/* Medium devices (tablets, 768px and up) End */
+
+
+
+/* Large devices (desktops, 992px and up) Start */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/* Large devices (desktops, 992px and up) End */
+
+
+
+/* Extra large devices (large desktops, 1200px and up) Start */
+@media (min-width: 1200px) {
+
+}
+/* Extra large devices (large desktops, 1200px and up) End */
+
+
+
+/* Part Start */
+
+/* Part End */
