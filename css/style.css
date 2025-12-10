@@ -357,42 +357,59 @@ p {
     content: "";
 }
 
-/* .popularImage {
-    display: flex;
-} */
-
 .popularImage2 {
     padding-top: 164px;
 }
 
-.popularButtonpart {
-    position: relative;
-}
-
-.popularButton {
+.prevBtn {
+    font-size: 40px;
+    color: #fff;
+    transition: .5s;
     position: absolute;
-    top: -120px;
+    bottom: 85px;
     right: 0;
+    z-index: 8;
 }
 
-.popularButton1 {
-    color: #fff;
+.prevBtn:hover {
+    color: #FF4655;
+}
+
+.nextBtn {
     font-size: 40px;
-    transition: .5s;
-}
-
-.popularButton1:hover {
-    color: tomato;
-}
-
-.popularButton2 {
     color: #fff;
-    font-size: 40px;
     transition: .5s;
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    z-index: 8;
 }
 
-.popularButton2:hover {
-    color: tomato;
+.nextBtn:hover {
+    color: #FF4655;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.slick-dots li {
+    margin: 0 5px;
+    font-size: 0 !important;
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.slick-dots li button {
+    display: none;
+}
+
+.slick-dots li.slick-active {
+    background: #FF4655;
 }
 
 /* Popular Part End */
@@ -445,7 +462,7 @@ p {
 
 /* Match Time Sub Part of Live Part Start */
 
-.matchHeading h3{
+.matchHeading h3 {
     font-size: 25px;
     font-weight: 500;
     color: #fff;
@@ -688,49 +705,6 @@ p {
     background: #121212;
 }
 
-.storeButtonPart {
-    position: relative;
-}
-
-.storeButton {
-    display: flex;
-    justify-content: space-between;
-    top: 100px;
-    transition: .5s;
-}
-
-.storeButton i {
-    color: #fff;
-}
-
-.left {
-    position: absolute;
-    padding: 10px 13px;
-    background: #FF4655;
-    border-radius: 50px;
-    top: 380px;
-    left: -25px;
-    transition: .5s;
-}
-
-.left:hover {
-    background: #19c594;
-}
-
-.right {
-    position: absolute;
-    padding: 10px 13px;
-    background: #FF4655;
-    border-radius: 50px;
-    top: 380px;
-    right: -25px;
-    transition: .5s;
-}
-
-.right:hover {
-    background: #19c594;
-}
-
 .storeHeading h3 {
     font-size: 38px;
     font-weight: 600;
@@ -755,6 +729,7 @@ p {
     padding: 20px 35px;
     background: #212121;
     transition: .5s;
+    transform: scale(0.95);
 }
 
 .storeItem:hover {
@@ -790,6 +765,34 @@ p {
     font-family: "Oswald", sans-serif;
     line-height: 24px;
     text-align: center;
+}
+
+.prevStoreBtn {
+    font-size: 40px;
+    color: #fff;
+    transition: .5s;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 8;
+}
+
+.prevStoreBtn:hover {
+    color: #FF4655;
+}
+
+.nextStoreBtn {
+    font-size: 40px;
+    color: #fff;
+    transition: .5s;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    z-index: 8;
+}
+
+.nextStoreBtn:hover {
+    color: #FF4655;
 }
 
 /* Store Part End */
@@ -834,6 +837,7 @@ p {
 .teamImage img {
     width: 100%;
 }
+
 .teamImage:hover {
     filter: grayscale(0%);
 }
